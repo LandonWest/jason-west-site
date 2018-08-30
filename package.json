@@ -1,0 +1,34 @@
+{
+  "name": "jason_west_site",
+  "description": "Personal site of Jason West, Realtor",
+  "version": "1.0.0",
+  "author": "Landon West <landonewest@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-typography": "^1.7.19",
+    "react-helmet": "^5.2.0",
+    "typography-theme-bootstrap": "^0.16.7",
+    "typography-theme-funston": "^0.15.10",
+    "typography-theme-lawton": "^0.15.10",
+    "typography-theme-sutro": "^0.15.10"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landonwest/jason_west_site"
+  }
+}
